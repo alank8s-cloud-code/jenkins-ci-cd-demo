@@ -21,7 +21,19 @@ The goal is to understand how CI/CD works in a simple and practical way.
 * Git & GitHub
 
 ---
+## 📂 Project Structure
 
+```bash id="a9qk2
+jenkins-ci-cd-demo/
+├── asset/
+│   └── output/
+├── public/
+├── Dockerfile
+├── Jenkinsfile
+├── README.md
+├── app.js
+└── package.json
+```
 ## ⚙️ Prerequisites
 
 Make sure you have:

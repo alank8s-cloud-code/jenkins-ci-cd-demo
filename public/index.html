@@ -1,13 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Jenkins CI/CD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Pipeline | DevOps Project</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .badges {
+            margin-top: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            margin: 8px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: 0.3s;
+        }
+
+        .badge:hover {
+            background: #00c6ff;
+            transform: scale(1.1);
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>🚀 CI/CD Pipeline Working!</h1>
-    <p>This app is deployed using Jenkins + Docker</p>
+
+    <div class="container">
+        <h1>🚀 CI/CD Pipeline Successful</h1>
+        <p>This application is automatically built and deployed using DevOps tools.</p>
+
+        <div class="badges">
+            <span class="badge">⚙️ Jenkins</span>
+            <span class="badge">🐳 Docker</span>
+            <span class="badge">📦 GitHub</span>
+            <span class="badge">☁️ CI/CD</span>
+        </div>
+
+        <div class="footer">
+            <p>Deployed by Suraj | DevOps Project 💻</p>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -109,7 +109,7 @@ http://localhost:3000
 
 ## Initial Pipeline Successful Run
 
-This shows the first failed pipeline attempt during setup:
+This shows the pipeline successful running:
 
 ![Pipeline Sucess](asset/output/build-and-run.png)
 

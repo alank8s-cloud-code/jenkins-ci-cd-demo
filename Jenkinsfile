@@ -44,7 +44,7 @@ pipeline {
 
     post {
         success {
-            echo "✅ CI/CD Pipeline Success - App Deployed!"
+            echo "✅ CI/CD Pipeline Success - App Deployed"
         }
         failure {
             echo "❌ Pipeline Failed - Check Logs"

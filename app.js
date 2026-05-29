@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-// serve static files
+// serve static files that can help to serev the server
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {

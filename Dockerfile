@@ -1,4 +1,4 @@
-# base image of nodejs
+# Base image of nodejs 
 
 FROM node:18-alpine
 

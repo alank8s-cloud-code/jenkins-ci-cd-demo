@@ -1,6 +1,6 @@
 # 🚀 Jenkins CI/CD Pipeline (Beginner Guide)
 
-## 📌 What I Learned
+## 📌 What I Learned today
 
 In this project, I learned something new about how applications can be built and deployed automatically using Jenkins and Docker.
 I understood how CI/CD works in a simple and practical way, and how code changes can be turned into a running application without doing everything manually.
